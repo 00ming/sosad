@@ -50,5 +50,10 @@
     right:0;
     margin-right: 20px;
   }
+  .nav{
+    .el-menu-item.is-active{
+      font-weight: 600;
+    }
+  }
 }
 </style>

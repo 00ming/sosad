@@ -1,7 +1,5 @@
 <template >
   <div class="home">
-
-
     <carousel></carousel>
     <div class="context">
       <el-tabs v-model="activeName2" type="card" >
@@ -15,15 +13,15 @@
           </div></el-tab-pane>
           <el-tab-pane label="特色菜介绍" name="second"><div class="menu">
             <el-row>
-  <el-col :span="6" v-for="(o, index) in 3" :offset="index > 0 ? 1 : 2">
-    <el-card :body-style="{ padding: '0px' }">
-      <img src="./hetaobao.jpg" class="image">
-      <div style="padding: 14px;">
-        <span>好吃的核桃包</span>
-      </div>
-    </el-card>
-  </el-col>
-</el-row>
+              <el-col :span="6" v-for="(o, index) in 3" :offset="index > 0 ? 1 : 2">
+                <el-card :body-style="{ padding: '0px' }">
+                  <img src="./hetaobao.jpg" class="image">
+                  <div style="padding: 14px;">
+                    <span>好吃的核桃包</span>
+                  </div>
+                </el-card>
+              </el-col>
+            </el-row>
           </div></el-tab-pane>
       </el-tabs>
     </div>
